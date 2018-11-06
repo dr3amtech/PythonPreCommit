@@ -63,7 +63,7 @@ def is_txn_author_allowed_to_delete(txn):
   return (author == 'admin')
 def should_author_be_checked(txn):
 	author = get_txn_property(txn,'svn:author')
-	if author=="saterj" or author=="sunderad":
+	if author=="userx" or author=="usery":
 		return True
 	else:
 		return False
